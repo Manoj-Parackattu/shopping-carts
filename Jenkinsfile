@@ -12,7 +12,7 @@ pipeline{
         stage('build'){
             steps{
                 echo 'this is the first job'
-                sh 'mvn complie'
+                sh 'mvn compile'
             
             }
         }
